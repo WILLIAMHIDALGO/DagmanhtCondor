@@ -1,0 +1,6 @@
+Job random random.condor
+Job sin sin.condor
+Job cos cos.condor
+Job collect collect.condor
+PARENT random CHILD sin cos
+PARENT sin cos CHILD collect

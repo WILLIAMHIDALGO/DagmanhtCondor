@@ -1,0 +1,8 @@
+Universe = vanilla
+Executable = cos
+Output = cos.out.$(cluster)
+Error = cos.err.$(cluster)
+Log = cos.log.$(cluster)
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+Queue

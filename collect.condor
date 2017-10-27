@@ -1,0 +1,9 @@
+Universe = vanilla
+Executable = collect
+Arguments = sinresult.txt cosresult.txt
+Output = collect.out.$(cluster)
+Error = collect.err.$(cluster)
+Log = collect.log.$(cluster)
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+Queue

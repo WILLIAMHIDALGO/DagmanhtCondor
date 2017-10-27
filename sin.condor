@@ -1,0 +1,8 @@
+Universe = vanilla
+Executable = sin
+Output = sin.out.$(cluster)
+Error = sin.err.$(cluster)
+Log = sin.log.$(cluster)
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+Queue
