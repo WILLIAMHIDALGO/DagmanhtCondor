@@ -9,7 +9,7 @@ int main()
 {
     double num;
     srand(time(NULL));
-    num = 1 + rand() % (91 - 1);
+    num = 1 + rand() % (361 - 1);
     FILE *fp;
     if((fp = fopen("/vagrant/random.txt", "wb")) == NULL) {
         printf("Cannot open file.\n");
